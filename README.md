@@ -1,1 +1,1 @@
-<h4>Please submit detailed requests! Completed projects are considered completed. I will review error reports and may complete new requests. Bundle releases may be released twice per year for completed projects. Source-only releases more frequently. Interesting projects will include various release formats.</h4>
+<h4>Please submit detailed requests! Some projects will have source-only releases and full releases perhaps twice per year.</h4>
