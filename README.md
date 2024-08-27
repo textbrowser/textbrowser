@@ -2,6 +2,7 @@
 
 Assign awesome color-image to a push button.
 
+```
 void class::assign_image(QPushButton *button, const QColor &color)
 {
   if(!button)
@@ -13,3 +14,4 @@ void class::assign_image(QPushButton *button, const QColor &color)
   image.fill(color);
   button->setIcon(QPixmap::fromImage(image));
 }
+```
