@@ -8,7 +8,7 @@ void class::assign_image(QPushButton *button, const QColor &color)
   if(!button)
     return;
 
-  QImage image(QSize(16, 16), QImage::Format_RGB32);
+  QImage image(QSize(16, 16), QImage::Format_ARGB32);
   QPainter painter(&image);
 
   image.fill(color);
