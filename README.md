@@ -1,6 +1,21 @@
 **All labor is skilled labor and all labor must be compensated. Love free software? Compensate the people.**
 
 ```
+/* Assign awesome color-image to a push button. */
+
+void class::assign_image(QPushButton *button, const QColor &color)
+{
+  if(!button)
+    return;
+
+  QImage image(QSize(16, 16), QImage::Format_ARGB32);
+  QPainter painter(&image);
+
+  image.fill(color);
+  button->setIcon(QPixmap::fromImage(image));
+}
+```
+```
 /* Correct EWS276-FIT LEDs. */
 
 After a firmware update of 1.0.45, the device's
@@ -17,20 +32,4 @@ LEDs may not function.
    b. option default '1'
 8. > tar -cvzf 1.tar.gz
 9. Upload 1.tar.gz via System Manager -> Firmware -> Restore New Setting.
-```
-
-```
-/* Assign awesome color-image to a push button. */
-
-void class::assign_image(QPushButton *button, const QColor &color)
-{
-  if(!button)
-    return;
-
-  QImage image(QSize(16, 16), QImage::Format_ARGB32);
-  QPainter painter(&image);
-
-  image.fill(color);
-  button->setIcon(QPixmap::fromImage(image));
-}
 ```
