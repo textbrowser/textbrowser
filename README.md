@@ -30,6 +30,6 @@ The EWS276-FIT's operating system is some derivative of Unix, perhaps Linux.
 7. For each malfunctioning LED, add:
    a. option brightness '1'
    b. option default '1'
-8. > tar -cvzf 1.tar.gz
+8. > tar -cvzf 1.tar.gz etc
 9. Upload 1.tar.gz via System Manager -> Firmware -> Restore New Setting.
 ```
