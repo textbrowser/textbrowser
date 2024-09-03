@@ -18,7 +18,7 @@ void class::assign_image(QPushButton *button, const QColor &color)
 ```
 /* Correct EWS276-FIT LEDs. */
 
-After a firmware update of 1.0.45, the device's LEDs may not function.
+After a firmware update of 1.0.45, the device's LEDs may not function. The EWS276-FIT's operating system is some derivative of Unix, perhaps Linux.
 
 1. Log into the device.
 2. Proceed to System Manager -> Firmware.
