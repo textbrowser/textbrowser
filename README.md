@@ -1,7 +1,8 @@
 **All labor is skilled labor and all labor must be compensated. Love free? Compensate the people.**
 ```
-Android and Qt: dialogs and windows should be shown with showMaximized(). Other methods such as show() will
-prevent interaction with the interfaces. For dialogs: showMaximized() followed by exec(), if necessary.
+Android and Qt: dialogs and windows should be shown with showMaximized().
+Other methods such as show() will prevent interaction with the interfaces.
+For dialogs: showMaximized() followed by exec(), if necessary.
 ```
 ```
 /* Assign awesome color-image to a push button. */
