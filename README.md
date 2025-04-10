@@ -5,6 +5,8 @@
 Dialogs and windows should be shown with showMaximized().
 Other methods such as show() will prevent interaction with the interfaces.
 For dialogs: showMaximized() followed by exec(), if necessary.
+```
+```
 QMenu::exec() is fine, however, set the minimum width of the menu to the parent's width.
 QMenu::exec(point) prevents interaction with the menu's actions.
 ```
